@@ -5,7 +5,7 @@ from faker import Faker
 
 fake = Faker()
 # ensures that the same dataset is generated every time
-random.seed(42)
+random.seed(15)
 
 categories = [
     "Food",
